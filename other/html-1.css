@@ -1,0 +1,68 @@
+div.code-toolbar>.toolbar>.toolbar-item>button {
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 5px 14px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+div.code-toolbar>.toolbar>.toolbar-item>button:hover {
+    color: aqua;
+}
+
+.t3{
+    font-family: "Manrope", sans-serif;;
+    background-color: #6366f1;
+    /* box-shadow: 0 .5rem 1.125rem -0.5rem rgba(99,102,241,.9) !important; */
+}
+.t3:hover{
+    background-color: #4044ee;
+    box-shadow: none;
+}
+
+.form-inline .form2{
+    /* display: flex;
+    justify-items: center; */
+    align-items: center;
+    margin-right: 10px;
+}
+
+.form-inline .form-control{
+    width: 200px;
+}
+
+.form-inline{
+    margin: 0 30px;
+    margin-top: 25px;
+}
+
+.form-inline .subh2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20PX;
+}
+
+.form-inline .form3{
+    display: inline-block;
+    width: 300px;
+    line-break: anywhere;
+}
+.span1{
+    margin-left: 29px;
+    color: #6366f1;
+}
+
+header .logo{
+    height: 24px;
+}
+
+/* .language-{
+    width: 50%;
+} */
+
+pre[class*="language-"]{
+    width: 300px;
+    align-items: center;
+}

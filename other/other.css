@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+main{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.tu{
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.tur{
+    padding: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.tab .tur .tu .tumm{
+    margin-left: 100px;
+}
+
+.tab{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+table{
+    border-collapse: separate;
+}
+
+.td1{
+    border: 0;
+}
+
+.btnr{
+    padding-left: 60px;
+}
+
+.btnl{
+    padding-right: 60px;
+}
+
+.form-inline{
+    margin: 0 30px;
+    margin-top: 25px;
+}
+
+.form-inline .subh2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20PX;
+}
+
+.form-inline .form3{
+    display: inline-block;
+    width: 300px;
+    line-break: anywhere;
+}
+.span1{
+    margin-left: 29px;
+    color: #6366f1;
+}
+
+header .logo{
+    height: 24px;
+}
+
+.form-inline .form-group .form5{
+    width: 200px;
+}
+
+.t3{
+    font-family: "Manrope", sans-serif;;
+    background-color: #6366f1;
+    /* box-shadow: 0 .5rem 1.125rem -0.5rem rgba(99,102,241,.9) !important; */
+}
+.t3:hover{
+    background-color: #4044ee;
+    box-shadow: none;
+}
+
+.text-reset{
+    margin: 0;
+}
+

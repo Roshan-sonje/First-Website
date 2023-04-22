@@ -1,0 +1,85 @@
+
+.togglee {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.togglee i {
+    width: 50%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1;
+}
+
+.togglee .ball {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin: 7.5px;
+    border-radius: 50%;
+    transition: .3s ease-out;
+}
+
+input {
+    display: none;
+}
+
+/*
+    -- Light Mode --
+*/
+
+.light {
+    background: #fafafa;
+}
+
+.light .togglee {
+    background: linear-gradient(145deg, #e1e1e1, #fff);
+    box-shadow: 3px 3px 4px #e6e6e6,
+                -3px -3px 4px #ffffff;
+}
+
+.light .togglee .bxs-sun {
+    color: #fafafa;
+}
+
+.light .togglee .bx-moon {
+    color: #151d2a;
+}
+
+.light .togglee .ball {
+    background: #151d2a;
+}
+
+/*
+    -- Dark Mode --
+*/
+
+.dark {
+    background: #151d2a;
+}
+
+.dark .togglee {
+    background: #151d2a;
+    box-shadow: 3px 3px 3px #0e131b,
+                -3px -3px 3px #1c2739;
+}
+
+.dark .togglee .bx-sun {
+    color: #fafafa;
+}
+
+.dark .togglee .bxs-moon {
+    color: #151d2a;
+}
+
+.dark .togglee .ball {
+    background: #fafafa;
+    transform: translateX(60px);
+}
